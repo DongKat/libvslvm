@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9,00"
-	Name="vslvmextract"
+	Name="lvm_extract"
 	ProjectGUID="{C3A14F2D-5B6E-47C8-9ADE-F01234567890}"
-	RootNamespace="vslvmextract"
+	RootNamespace="lvm_extract"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="131072"
 	>
@@ -174,7 +174,7 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath="..\..\vslvmtools\vslvmextract.cpp"
+				RelativePath="..\..\vslvmtools\lvm_extract.cpp"
 				>
 			</File>
 		</Filter>

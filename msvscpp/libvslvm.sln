@@ -294,7 +294,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libcnotify", "libcnotify\li
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libcerror", "libcerror\libcerror.vcproj", "{BD3A95FA-A3DE-4B79-A889-A7E5ECA4B69C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vslvmextract", "vslvmextract\vslvmextract.vcproj", "{C3A14F2D-5B6E-47C8-9ADE-F01234567890}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lvm_extract", "lvm_extract\lvm_extract.vcproj", "{C3A14F2D-5B6E-47C8-9ADE-F01234567890}"
 	ProjectSection(ProjectDependencies) = postProject
 		{5D7C5D34-B8F1-43BA-9BF2-10F001B84749} = {5D7C5D34-B8F1-43BA-9BF2-10F001B84749}
 	EndProjectSection
