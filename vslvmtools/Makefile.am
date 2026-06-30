@@ -17,7 +17,8 @@ AM_LDFLAGS = @STATIC_LDFLAGS@
 
 bin_PROGRAMS = \
 	vslvminfo \
-	vslvmmount
+	vslvmmount \
+	lvm_extract
 
 vslvminfo_SOURCES = \
 	byte_size_string.c byte_size_string.h \
@@ -85,6 +86,22 @@ vslvmmount_LDADD = \
 
 CLEANFILES = \
 	*.exe
+
+lvm_extract_SOURCES = \
+	lvm_extract.c
+
+lvm_extract_LDADD = \
+	@LIBBFIO_LIBADD@ \
+	@LIBCPATH_LIBADD@ \
+	@LIBCFILE_LIBADD@ \
+	@LIBUNA_LIBADD@ \
+	@LIBCSPLIT_LIBADD@ \
+	@LIBCNOTIFY_LIBADD@ \
+	@LIBCLOCALE_LIBADD@ \
+	@LIBCDATA_LIBADD@ \
+	../libvslvm/libvslvm.la \
+	@LIBCERROR_LIBADD@ \
+	@LIBINTL@
 
 DISTCLEANFILES = \
 	Makefile \
